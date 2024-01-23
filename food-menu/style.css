@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html,body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    display: flex;
+    flex:10;
+
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#left-sidebar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 40vh;
+    background-color: #0C0E10;
+    
+
+   
+   
+}
+.main-1{
+    background-color: #111315;
+   
+
+
+}
+
+
+
+h3,h4,p{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #191D20;
+    margin-bottom: 20px;
+    
+}
+nav{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+#profile-img > img{
+    width: 80px;
+    height: 80px;
+
+}
+#restaurant-name ,.profile{
+    text-align: center;
+}
+#billboard{
+  width: 100%;
+  text-align: center;
+
+ 
+}
+#billboard > img{
+    
+width: 97%;
+height: 400px;
+border-radius: 20px;
+justify-content: center;
+    
+}
+
+.btn {
+ width: 150px;
+height: 46px;
+color:white;
+padding-right: 15px;
+font-family: 'Poppins', sans-serif;
+background-color: #FF2424;
+border: none;
+
+
+
+}
+#search{
+ 
+    width: 680px;
+    height:40px;
+   margin: 10px;
+display: flex;
+align-items: center;
+background-color: #272A30;
+
+  
+
+}
+.icon{
+    padding-top:7px;
+    padding-left: 10px;
+    color:#202020
+}
+input{
+    width: 500px;
+height: 30px;
+border-radius: 5px;
+    border:none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #272A30;
+
+   
+    
+    
+}
+header{
+    position:sticky;
+    top:0px;
+}
+nav{
+    display: flex;
+   
+}
+
+
+#profile-img-1 >img{
+width: 150px;
+height: 150px;
+padding: 20px;
+}
+
+.links ,.links-2{
+    display: flex;
+    flex-direction:column ;
+    text-align:left;
+    padding: 20px;
+    height: max-content;
+
+    border-top: 1px solid rgb(42, 45, 48);
+    
+    
+}
+a{
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  color:white
+
+}
+a:hover{
+    color:#FF2424;
+}
+
+#burg{
+    padding: 20px;
+}
+#burg >img{
+    width:350px;
+    height: 250px;
+    border-radius: 20px;
+    
+
+}
+.food-menu{
+
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+   justify-content: center; 
+}
+.menu-divs{
+    width: 400px;
+    margin: 10px;
+    background-color:#191D20;
+    border-radius: 10px;
+  
+
+
+}
+.add{
+    padding: 1px;
+    color: #474747;
+    background-color: #2c2c2c;
+}
+.slice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
