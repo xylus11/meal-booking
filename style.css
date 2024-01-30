@@ -6,7 +6,6 @@ html,body{
 }
 body{
     display: flex;
-    flex:10;
 
 
 }
@@ -18,8 +17,8 @@ body::-webkit-scrollbar{
     position: sticky;
     top: 0px;
     left: 0px;
+    width: 20%;
     height: 100vh;
-    width: 40vh;
     background-color: #0C0E10;
     
 
@@ -28,6 +27,7 @@ body::-webkit-scrollbar{
 }
 .main-1{
     background-color: #111315;
+    width: 100%;
    
 
 
@@ -67,15 +67,20 @@ nav{
 }
 #billboard > img{
     
-width: 97%;
-height: 400px;
+width: 95%;
+height: 350px;
 border-radius: 20px;
-justify-content: center;
+
     
+}
+.btnn{
+    width: 300px;
+    justify-content: space-between;
+    display: flex
 }
 
 .btn {
- width: 150px;
+ width: 125px;
 height: 46px;
 color:white;
 padding-right: 15px;
@@ -85,6 +90,9 @@ border: none;
 
 
 
+}
+.chan-bord{
+    border-radius: 10px;
 }
 #search{
  
@@ -99,9 +107,14 @@ background-color: #272A30;
 
 }
 .icon{
-    padding-top:7px;
+    padding-top: 8px;
     padding-left: 10px;
-    color:#202020
+ 
+}
+.btnnn{
+    color:#2c2c2c;;
+    background-color: #585757;
+    border-radius: 50%;
 }
 input{
     width: 500px;
@@ -157,27 +170,34 @@ a:hover{
 
 #burg{
     padding: 20px;
+   
 }
 #burg >img{
-    width:350px;
-    height: 250px;
+    width:300px;
+    height: 200px;
     border-radius: 20px;
     
 
 }
+
 .food-menu{
 
 width: 100%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-   justify-content: center; 
+margin: 30px;
+
+
 }
+
+
 .menu-divs{
-    width: 400px;
+    width: fit-content;
     margin: 10px;
     background-color:#191D20;
     border-radius: 10px;
+   
   
 
 
