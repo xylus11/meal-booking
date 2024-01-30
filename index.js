@@ -1,6 +1,9 @@
 
 const url ='https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json';
-
+var loader = document.getElementById('preloader');
+window.addEventListener("load",function(){
+ loader.style.display='none';
+})
 
 
 
@@ -8,6 +11,7 @@ const url ='https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/fo
 async function getMenu(){
     const response =await fetch(url);
     const menuData = await response.json();
+    
     displayMenu(menuData);
     return menuData;
 
@@ -49,7 +53,7 @@ function displayMenu(menuData){
        foodDiv.append(sliceDiv);
        mainDiv.append(foodDiv);
        foodMenu.append(mainDiv);
-
+      
      
 
         // itemName.innerText=`${item.name} `;
@@ -60,6 +64,7 @@ function displayMenu(menuData){
     })
 
 }
+
 function takeorder(){
     return new Promise(resolve=>{
         setTimeout(()=>{
